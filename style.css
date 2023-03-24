@@ -1,8 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Ubuntu:wght@300&display=swap');
 
+body::before {
+    display: block;
+    content: '';
+    height: 55px;
+}
+
 body{
     font-family: 'Ubuntu', sans-serif;
 }
 .dance-font{
     font-family: 'Dancing Script', cursive;
+}
+
+.navbar-nav {
+    align-items: center;
 }
